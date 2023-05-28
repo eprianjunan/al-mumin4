@@ -1,0 +1,228 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/* # Topbar */
+#topbar {
+  background: #243238;
+  font-size: 15px;
+  height: 40px;
+  padding: 0;
+}
+
+#topbar .container .contact-info a {
+  line-height: 0;
+  color: #999999;
+  transition: 0.3s;
+}
+
+#topbar .container .contact-info a:hover {
+  color: #fff;
+}
+
+#topbar .container .contact-info i {
+  color: #5cb874;
+  line-height: 0;
+  margin-right: 5px;
+}
+
+#topbar .container .contact-info span {
+  color: #999999;
+  line-height: 0;
+  margin-right: 5px;
+}
+
+#topbar .container .contact-info .phone-icon {
+  margin-left: 15px;
+}
+
+#topbar .social-links a {
+  color: #6f6f6f;
+  padding: 4px 12px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}
+
+#topbar .social-links a:hover {
+  color: #005aab;
+}
+/* Akhir dari topbar */
+
+/* Navbar */
+#header .myNav ul li a {
+  margin-right: 5px;
+}
+#header .myNav ul li a:hover {
+  color: #efc32f;
+  border-bottom: 2px solid #efc32f;
+}
+@media (min-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+/* Akhir dari navbar */
+
+/* Tentang kami */
+#tentangkami {
+  padding: 2rem;
+}
+/* Akhir dari tentang kami */
+
+/* sambutan*/
+.sambutan {
+  margin-top: 2rem;
+  padding: 3rem 1rem;
+  background-color: #f1f1f1;
+}
+/* Akhir sambutan */
+
+/* Berita */
+#berita .selengkapnya a {
+  text-decoration: none;
+}
+.inner {
+  overflow: hidden;
+}
+.inner img {
+  transition: all 1.5s ease;
+}
+.inner:hover img {
+  transform: scale(1.5);
+}
+/* Pages */
+#beritapages {
+  margin-top: 7rem;
+  padding: 3rem 5rem;
+}
+
+#beritaRead {
+  padding-top: 7rem;
+}
+/* Akhir Berita */
+
+/* PPDB */
+#ppdb {
+  margin-top: 7rem;
+}
+/* Akhir dari PPDB */
+
+/* Profil */
+#profil {
+  margin-top: 3rem;
+}
+#profil section {
+  padding-top: 5rem;
+}
+#visimisi hr.visimisi {
+  height: 5px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to left, blue, red);
+}
+#profil #visimisi {
+  background-position: 0 100px;
+  background-image: url("/image/bgvisimisi.png");
+  background-attachment: fixed;
+}
+
+#profil #guru {
+  background-image: url("/image/bgguru.png");
+  background-attachment: fixed;
+}
+/* Akhir dari profil */
+
+/* Fasilitas */
+#fasilitas {
+  margin-top: 2rem;
+}
+#fasilitas section {
+  padding-top: 7rem;
+}
+/* Akhir Fasilitas */
+
+/* Kontak */
+#kontak {
+  margin-top: 2rem;
+  padding: 8rem 2rem;
+  background-color: #f1f1f1;
+}
+/* Akhir dari kontak */
+
+/* Footer */
+#footer {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: grey;
+}
+#footer .copy {
+  color: white;
+  text-align: center;
+}
+/* Akhir Footer */
+/* Organisasi */
+#organisasi {
+  margin-top: 1rem;
+}
+#organisasi section {
+  padding-top: 4rem;
+}
+.organisasi .anggota {
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 12px 0px rgba(34, 34, 34, 0.07);
+  padding: 30px 20px;
+  background-color: #f1f1f1;
+}
+
+.organisasi .anggota img {
+  max-width: 60%;
+  border-radius: 50%;
+  margin: 0 0 30px 0;
+}
+
+.organisasi .anggota h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+.organisasi .anggota span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+.organisasi .anggota p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: #aaaaaa;
+}
+
+.organisasi .anggota .social {
+  margin-top: 15px;
+}
+
+.organisasi .anggota .social a {
+  color: #919191;
+  transition: 0.3s;
+}
+
+.organisasi .anggota .social a:hover {
+  color: #00c0ce;
+}
+
+.organisasi .anggota .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+/* Akhir Organisasi */
+
+/* ==================ADMIN======================== */
